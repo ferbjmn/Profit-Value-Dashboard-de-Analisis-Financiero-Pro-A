@@ -240,8 +240,7 @@ def main():
             
             columnas_mostrar = [
                 "Ticker", "Nombre", "Sector", "Precio", "P/E", "P/B", "P/FCF", 
-                "Dividend Yield %", "Payout Ratio", "ROA", "ROE", "Current Ratio", "Debt/Eq", "Oper Margin", "Profit Margin", "WACC", "ROIC", "EVA"
-            ]
+                "Dividend Yield %", "Payout Ratio", "ROA", "ROE", "Current Ratio", "Debt/Eq", "Oper Margin", "Profit Margin", "WACC", "ROIC", "EVA"]
             
             st.dataframe(
                 df[columnas_mostrar].dropna(how='all', axis=1),
